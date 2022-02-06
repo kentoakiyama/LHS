@@ -1,9 +1,9 @@
 ラテン超方格サンプリングの実装例
 
-ジュピターノートブックとスクリプトでの実装を置いています。
+使うときはダウンロードしてパスを通してください。
 
 ----------------------------------------------------------------------
 
 Implimentation of Latin Hypercubic Sampleing
 
-This folder includes jupyter file and script file.
+When you use this script, set the file path.
