@@ -1,9 +1,15 @@
-ラテン超方格サンプリングの実装例
+# ラテン超方格サンプリングの実装
 
-使うときはダウンロードしてパスを通してください。
+# 使い方
+```
+lhs_result = lhs(n_dim, n_sample, init_array)
+```
 
-----------------------------------------------------------------------
+引数
+- n_dim: 次元数（2次元空間からサンプリングしたい場合は2を指定）
+- n_sample: サンプル数
+- init_array: すでにあるサンプリングから追加でサンプリングしたい場合に指定
 
-Implimentation of Latin Hypercubic Sampleing
-
-When you use this script, set the file path.
+# 参考文献
+- [ラテン超方格サンプリング(LHS)の実装(Python)](https://qiita.com/Zoo1234/items/634f567983a7240353a0)
+- [An Example of Augmenting a Latin Hypercube](https://cran.r-project.org/web/packages/lhs/vignettes/augment_lhs.html)
