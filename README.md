@@ -11,7 +11,9 @@ lhs_result = lhs(n_dim, n_sample, init_array)
 - init_array: すでにあるサンプリングから追加でサンプリングしたい場合に指定
 
 返り値
+
 lhs_result -> np.array([n_sample, n_dim])のサイズになっています。
+
 全て、0から1で正規化されているので、適宜範囲を修正してください。
 
 # 参考文献
